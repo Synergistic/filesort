@@ -1,5 +1,9 @@
 import shutil, os, os.path
 
+'''Look at all files in a target directory and then
+sorts them into appropriate folders. It looks for a
+file with a name that is either a letter or number.'''
+
 #create a list of the items in my target directory \new\
 files_to_sort = os.listdir('new')
 
